@@ -1,0 +1,48 @@
+/usr/lib/jvm/java-8-openjdk-amd64/jre/../bin/javadoc
+@options
+@packages
+-classpath
+'/home/andrs/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar'
+-encoding
+'UTF-8'
+-private
+-sourcepath
+'/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'bataille-navale 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/javadoc-bundle-options'
+-nohelp
+-use
+-version
+-windowtitle
+'bataille-navale 1.0-SNAPSHOT API'
+ensta.board
+ensta
+ensta.utils
+ensta.ship
+/home/andrs/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar = 1614459542741
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java = 1614459312974
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/constant-values.html = 1614551095180
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/allclasses-frame.html = 1614551095252
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/deprecated-list.html = 1614551095252
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/package-list = 1614551095148
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/stylesheet.css = 1614550804260
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/allclasses-noframe.html = 1614551095252
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/overview-frame.html = 1614551095148
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/script.js = 1614551095256
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/serialized-form.html = 1614551095188
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/help-doc.html = 1614550804260
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/overview-tree.html = 1614551095240
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/overview-summary.html = 1614551095256
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/index-all.html = 1614551095248
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/target/site/apidocs/index.html = 1614551095256
