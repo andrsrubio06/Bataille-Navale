@@ -42,14 +42,21 @@ public class Board implements iBoard
     }
 
     public void print(){
+      
         System.out.println("\n\n" + name);
+      
         printBoardTitle("Navires:", boardShips[0].length);
+      
         printBoardTitle("Frappes:", boardHits[0].length);
+      
         System.out.println();
 
         printBoardHeader(boardShips[0].length);
+      
         System.out.print(" ");
+      
         printBoardHeader(boardHits[0].length);
+      
         System.out.println();
 
         for(int i = 0; i < boardShips.length; i++){
@@ -90,7 +97,12 @@ public class Board implements iBoard
         return boardShips[x][y]== 0 ? false : true;
     }
 
-
+    private String printShip(int i, int j){   
+        return boardShips[i][j] == 0 ? NO_SHIP : Character.toString(boardShips[i][j]);
+    } 
+    
+    
+    
     public void addShip(AbstractShip ship, int x, int y) throws boardException
     {
 
@@ -137,8 +149,5 @@ public class Board implements iBoard
         }
         
     }
-    private String printShip(int i, int j){   
-        return boardShips[i][j] == 0 ? NO_SHIP : Character.toString(boardShips[i][j]);
-    } 
 
 }
