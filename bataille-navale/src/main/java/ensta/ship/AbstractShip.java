@@ -1,4 +1,9 @@
-package ensta;
+package ensta.ship;
+
+import ensta.utils.LabelShip;
+import ensta.utils.ShipName;
+import ensta.utils.Orientation;
+import ensta.utils.ShipLength;
 
 public abstract class AbstractShip{
 

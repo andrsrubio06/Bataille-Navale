@@ -1,10 +1,10 @@
 package ensta.utils;
 
 public enum Orientation {
-    NORTH('D'),
-    SOUTH('S'),
-    WEST('B'),
-    EAST('C');
+    NORTH('n'),
+    SOUTH('s'),
+    WEST('w'),
+    EAST('e');
 
     private char value; 
 
@@ -19,7 +19,16 @@ public enum Orientation {
         return Character.toString(this.value);
     }
     
-    private LabelShip(char value) 
+    public static Orientation fromString(String value) {
+        for (Orientation o : Orientation.values()) {
+            if (o.toString().equals(value)) {
+                return o;
+            }
+        }
+        return null;
+    }
+
+    private Orientation(char value) 
     { 
         this.value = value; 
     } 

@@ -1,2 +1,13 @@
-/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/Board.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/ship/AbstractShip.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/ship/BattleShip.java
 /home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/App.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/board/Board.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/utils/ShipLength.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/utils/LabelShip.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/ship/Submarine.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/ship/Destroyer.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/utils/ShipName.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/utils/Orientation.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/ship/Carrier.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/board/boardException.java
+/home/andrs/Documents/ensta/2A/IN205/BatailleNavale/bataille-navale/src/main/java/ensta/board/iBoard.java
