@@ -103,7 +103,8 @@ public class Board implements iBoard
     
     
     
-    public void addShip(AbstractShip ship, int x, int y) throws boardException
+    public void addShip(AbstractShip ship, int x, int y)
+    //throws boardException
     {
 
             int boardLimit = getSize();
@@ -128,18 +129,18 @@ public class Board implements iBoard
                     xDir = -1;
                         break;
                 }
-         
+         //here is where to the exceptions supossed to be verified
             if((x+xDir*shipSize)>boardLimit||
                 (x+xDir*shipSize)<0||
                 (y+yDir*shipSize)>boardLimit||
                 (y+yDir*shipSize)<0||
                 y<0||x<0)
-                             throw new boardException("It goes off the board");
+    //                         throw new boardException("It goes off the board");
 
         for (int j = 0; j < shipSize; j++) {
             while(i<shipSize){
                 if(checkShip(x+xDir*i, y+yDir*j))
-                                throw new boardException("the position is already occupied",i,j);
+    //                            throw new boardException("the position is already occupied",i,j);
                 i++;
             }
         } 

@@ -22,13 +22,13 @@ public class App
         Destroyer D = new Destroyer();
 
         
-        //a.addShip(C, 6, 5);
+        a.addShip(C, 6, 5);
 
-        //a.addShip(B, 5, 6);
+        a.addShip(B, 5, 6);
 
-        //a.addShip(S, 4, 6);
+        a.addShip(S, 4, 6);
 
-        //a.addShip(D, 3, 6);
+        a.addShip(D, 3, 6);
         
         a.print();
 
